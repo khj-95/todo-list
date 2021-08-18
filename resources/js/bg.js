@@ -19,7 +19,7 @@ let getLocationWeather = async () =>{
 		appid: 'ffc405f4be0ce4647dcf2a575156608f'
 	});
 	
-	let url = `http://api.openweathermap.org/data/2.5/weather?${queryString}`;
+	let url = `https://api.openweathermap.org/data/2.5/weather?${queryString}`;
 	
 	
 	let response = await fetch(url);
